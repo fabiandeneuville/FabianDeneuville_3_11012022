@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "\"Open Classrooms Developper path - Project 3\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Sass/main.scss:Style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiandeneuville/FabianDeneuville_3_11032022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiandeneuville/FabianDeneuville_3_11032022/issues"
+  },
+  "homepage": "https://github.com/fabiandeneuville/FabianDeneuville_3_11032022#readme"
+}
