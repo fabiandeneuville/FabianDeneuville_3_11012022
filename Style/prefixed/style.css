@@ -1,3 +1,7 @@
+/* Variables */
+/* General configuration */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
 
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL1Nhc3MvVXRpbHMvX3ZhcmlhYmxlcy5zY3NzIiwiLi4vLi4vU2Fzcy9CYXNlL19nZW5lcmFsLnNjc3MiLCIuLi9zdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsY0FBQTtBQ0FBLDBCQUFBO0FBQ0E7RUFDSSxzQkFBQTtBQ0VKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

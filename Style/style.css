@@ -1,3 +1,7 @@
-
+/* Variables */
+/* General configuration */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
 
 /*# sourceMappingURL=style.css.map */
