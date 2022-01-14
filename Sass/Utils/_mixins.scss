@@ -1,0 +1,11 @@
+@mixin shadow{
+    box-shadow: 0 0 10px 0px #333;
+}
+@mixin center{
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+@mixin textFont{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
