@@ -84,6 +84,7 @@ body {
 }
 .system__heading {
   margin: 25px auto 25px 25px;
+  font-size: 25px;
 }
 .system__container {
   display: flex;
