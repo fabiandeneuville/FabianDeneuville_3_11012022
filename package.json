@@ -4,7 +4,8 @@
   "description": "Open Classrooms Developper path - Project 3",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./Sass/main.scss:Style/style.css"
+    "sass": "sass --watch ./Sass/main.scss:Style/style.css",
+    "prefix":"postcss Style/style.css --use autoprefixer -d Style/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "author": "",
   "license": "ISC",
+  "browslist":"last 4 versions",
   "bugs": {
     "url": "https://github.com/fabiandeneuville/FabianDeneuville_3_11032022/issues"
   },
