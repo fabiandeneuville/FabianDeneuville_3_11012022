@@ -1,5 +1,5 @@
 @mixin shadow{
-    box-shadow: 0 0 10px 0px #333;
+    box-shadow: 0 0 10px 0px $dark-grey;
 }
 @mixin center{
     top:50%;
