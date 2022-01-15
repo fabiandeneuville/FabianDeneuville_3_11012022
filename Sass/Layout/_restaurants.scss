@@ -4,7 +4,7 @@
     padding:25px 0 25px 0;
     &__heading{
         @include sectionHeading;
-        @include textFont;
+        @include headingFont;
     }
     &__container{
         display:flex;

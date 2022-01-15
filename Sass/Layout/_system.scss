@@ -4,6 +4,7 @@
     @include textFont;
     &__heading{
         @include sectionHeading;
+        @include headingFont;
     }
     &__container{
         display:flex;

@@ -9,6 +9,12 @@
 @mixin textFont{
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
+@mixin headingFont{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+@mixin titleFont{
+    font-family: 'shrikhand', 'roboto', Arial, Helvetica, sans-serif;
+}
 @mixin sectionHeading{
     margin:25px auto 25px 25px;
     font-size: 25px;
