@@ -10,4 +10,13 @@
         position:absolute;
         @include center;
     }
+    .back{
+        display: inline-block;
+        position:absolute;
+        top:50%;
+        left:25px;
+        transform: translateY(-50%);
+        font-size: 25px;
+        color: black;
+    }
 }

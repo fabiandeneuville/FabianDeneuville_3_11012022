@@ -21,6 +21,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.header .back {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: black;
+}
 
 .location {
   width: 100%;
