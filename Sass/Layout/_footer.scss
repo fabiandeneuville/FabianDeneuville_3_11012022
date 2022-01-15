@@ -1,0 +1,22 @@
+.footer{
+    padding:25px;
+    background-color:$dark-grey;
+    color:$white;
+    &__heading{
+        font-family: 'shrikhand';
+        font-size: 25px;
+        margin:0;
+    }
+    ul{
+        list-style-type: none;
+        padding:0;
+        @include textFont;
+    }
+    a{
+        text-decoration: none;
+        color:$white;
+    }
+    &__item{
+        padding:5px 0 5px 0;
+    }
+}
