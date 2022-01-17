@@ -2,7 +2,7 @@
     background-color: $light-grey;
     z-index: 2;
     position:relative;
-    margin-top:-75px;
+    margin-top:-110px;
     border-radius: 50px 50px 0 0;
     padding-bottom:50px;
     @include GeneralFont;
@@ -46,13 +46,20 @@
             padding:10px;
             overflow: hidden;
             &__name{
+                width:100%;
                 font-size: 16px;
                 font-weight: 700;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
             }
             &__article{
                 font-weight: 300;
                 color:$dark-grey;
                 font-size: 14px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
             }
             &__price{
                 right:10px;
@@ -60,7 +67,7 @@
                 position:absolute;
                 font-weight: 700;
                 font-size: 16px;
-                transition:transform 0.5s ease-in-out;
+                transition:transform 0.2s ease-in-out;
             }
             &__checkbox{
                 width:50px;
@@ -69,20 +76,12 @@
                 position:absolute;
                 right:-50px;
                 top:0px;
-                transition:transform 0.5s ease-in-out;
+                transition:transform 0.2s ease-in-out;
                 i{
-                    display: block;
-                    position: absolute;
-                    width:30px;
-                    height: 30px;
-                    background-color: #fff;
-                    text-align:center;
-                    line-height: 30px;
-                    color:$color-tertiary;
-                    font-size: 18px;
-                    border:3px solid $color-tertiary;
-                    border-radius: 50%;
-                    @include center;
+                        position:absolute;
+                        @include center;
+                        color:white;
+                        font-size: 22px;
                 }
             }
             &:hover{
@@ -91,6 +90,12 @@
                 }
                 .dish__price{
                     transform: translateX(-50px);
+                }
+                .dish__name{
+                    width:calc(100% - 100px);
+                }
+                .dish__article{
+                    width:calc(100% - 100px);
                 }
             }
         }
