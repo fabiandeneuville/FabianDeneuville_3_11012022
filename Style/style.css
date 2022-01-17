@@ -89,6 +89,7 @@ body {
   line-height: 80px;
   text-align: center;
   border-radius: 40px;
+  cursor: pointer;
 }
 
 .system {
@@ -270,6 +271,13 @@ body {
 .menu .dishes__heading {
   font-weight: 300;
 }
+.menu .dishes__heading::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #99E2D0;
+}
 .menu .dishes__container {
   display: flex;
   flex-direction: column;
@@ -278,36 +286,67 @@ body {
   align-items: center;
 }
 .menu .dishes .dish {
+  position: relative;
   width: 100%;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 0 5px 5px #EAEAEA;
   padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5px;
+  overflow: hidden;
 }
 .menu .dishes .dish__name {
-  width: 100%;
+  font-size: 16px;
   font-weight: 700;
 }
 .menu .dishes .dish__article {
-  width: 75%;
   font-weight: 300;
   color: #333;
   font-size: 14px;
 }
 .menu .dishes .dish__price {
-  width: 20%;
-  text-align: right;
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
+  transition: transform 0.5s ease-in-out;
+}
+.menu .dishes .dish__checkbox {
+  width: 50px;
+  height: 100%;
+  background-color: #99E2D0;
+  position: absolute;
+  right: -50px;
+  top: 0px;
+  transition: transform 0.5s ease-in-out;
+}
+.menu .dishes .dish__checkbox i {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 30px;
+  color: #99E2D0;
+  font-size: 18px;
+  border: 3px solid #99E2D0;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu .dishes .dish:hover .dish__checkbox {
+  transform: translateX(-50px);
+}
+.menu .dishes .dish:hover .dish__price {
+  transform: translateX(-50px);
 }
 .menu .order-btn {
   display: block;
   margin: 35px auto 0 auto;
   text-decoration: none;
+  border: none;
   color: #fff;
   width: 200px;
   height: 60px;
@@ -317,6 +356,7 @@ body {
   line-height: 60px;
   text-align: center;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .banner {
