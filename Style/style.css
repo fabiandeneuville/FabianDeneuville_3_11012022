@@ -246,7 +246,7 @@ body {
   background-color: #F6F6F6;
   z-index: 2;
   position: relative;
-  margin-top: -75px;
+  margin-top: -110px;
   border-radius: 50px 50px 0 0;
   padding-bottom: 50px;
   font-family: "roboto", Arial, Helvetica, sans-serif;
@@ -295,13 +295,20 @@ body {
   overflow: hidden;
 }
 .menu .dishes .dish__name {
+  width: 100%;
   font-size: 16px;
   font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .menu .dishes .dish__article {
   font-weight: 300;
   color: #333;
   font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .menu .dishes .dish__price {
   right: 10px;
@@ -309,7 +316,7 @@ body {
   position: absolute;
   font-weight: 700;
   font-size: 16px;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .menu .dishes .dish__checkbox {
   width: 50px;
@@ -318,29 +325,27 @@ body {
   position: absolute;
   right: -50px;
   top: 0px;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .menu .dishes .dish__checkbox i {
-  display: block;
   position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  text-align: center;
-  line-height: 30px;
-  color: #99E2D0;
-  font-size: 18px;
-  border: 3px solid #99E2D0;
-  border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  font-size: 22px;
 }
 .menu .dishes .dish:hover .dish__checkbox {
   transform: translateX(-50px);
 }
 .menu .dishes .dish:hover .dish__price {
   transform: translateX(-50px);
+}
+.menu .dishes .dish:hover .dish__name {
+  width: calc(100% - 100px);
+}
+.menu .dishes .dish:hover .dish__article {
+  width: calc(100% - 100px);
 }
 .menu .order-btn {
   display: block;
