@@ -2,15 +2,15 @@
     padding:25px;
     background-color:$dark-grey;
     color:$white;
+    @include GeneralFont;
     &__heading{
-        font-family: 'shrikhand';
+        @include SpecialFont;
         font-size: 25px;
         margin:0;
     }
     ul{
         list-style-type: none;
         padding:0;
-        @include textFont;
     }
     a{
         text-decoration: none;
@@ -18,5 +18,10 @@
     }
     &__item{
         padding:5px 0 5px 0;
+    }
+    i{
+        display: inline-block;
+        width:20px;
+        margin-right:10px;
     }
 }

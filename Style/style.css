@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: 80px;
   position: relative;
-  box-shadow: 0 0 10px 0px #333;
+  box-shadow: 0 0 5px 5px #EAEAEA;
 }
 .header__logo {
   display: block;
@@ -40,6 +40,7 @@ body {
   font-weight: 500;
   color: #333;
   background-color: #EAEAEA;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 .location__ping {
   display: inline-block;
@@ -47,7 +48,6 @@ body {
 }
 .location__place {
   display: inline-block;
-  font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 
 .presentation {
@@ -77,14 +77,17 @@ body {
   font-weight: 300;
 }
 .presentation__link-btn {
+  display: block;
   margin: 15px auto 15px auto;
   text-decoration: none;
   color: #fff;
   width: 300px;
   height: 80px;
   background: linear-gradient(170deg, #FF79DA, #9356DC);
+  font-family: "roboo", Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 80px;
+  text-align: center;
   border-radius: 40px;
 }
 
@@ -94,9 +97,9 @@ body {
   font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 .system__heading {
-  margin: 25px auto 25px 25px;
+  margin: 0 auto 0 25px;
+  padding: 25px 0 25px 0;
   font-size: 25px;
-  font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 .system__container {
   display: flex;
@@ -117,7 +120,7 @@ body {
   line-height: 100px;
   display: flex;
   flex-direction: row;
-  box-shadow: 0 0 10px 0px #333;
+  box-shadow: 0 0 5px 5px #EAEAEA;
 }
 .system__container .system-btn__step {
   display: inline-block;
@@ -150,12 +153,13 @@ body {
 .restaurants {
   width: 100%;
   background-color: #EAEAEA;
-  padding: 25px 0 25px 0;
+  padding: 0 0 25px 0;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 .restaurants__heading {
-  margin: 25px auto 25px 25px;
+  margin: 0 auto 0 25px;
+  padding: 25px 0 25px 0;
   font-size: 25px;
-  font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 .restaurants__container {
   display: flex;
@@ -171,8 +175,7 @@ body {
   max-width: 500px;
   position: relative;
   text-decoration: none;
-  font-family: "roboto", Arial, Helvetica, sans-serif;
-  box-shadow: 0 0 10px 0px #333;
+  box-shadow: 0 0 5px 5px #EAEAEA;
   color: black;
   background-color: #fff;
 }
@@ -185,7 +188,6 @@ body {
   top: 10px;
   right: 10px;
   background-color: #99E2D0;
-  font-family: "roboto", Arial, Helvetica, sans-serif;
   color: green;
 }
 .restaurants__container .restaurants-card__img {
@@ -215,16 +217,16 @@ body {
   padding: 25px;
   background-color: #333;
   color: #fff;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 .footer__heading {
-  font-family: "shrikhand";
+  font-family: "shrikhand", "roboto", Arial, Helvetica, sans-serif;
   font-size: 25px;
   margin: 0;
 }
 .footer ul {
   list-style-type: none;
   padding: 0;
-  font-family: "roboto", Arial, Helvetica, sans-serif;
 }
 .footer a {
   text-decoration: none;
@@ -233,10 +235,93 @@ body {
 .footer__item {
   padding: 5px 0 5px 0;
 }
+.footer i {
+  display: inline-block;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.menu {
+  background-color: #F6F6F6;
+  z-index: 2;
+  position: relative;
+  margin-top: -75px;
+  border-radius: 50px 50px 0 0;
+  padding-bottom: 50px;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+.menu__heading {
+  font-family: "shrikhand", "roboto", Arial, Helvetica, sans-serif;
+  margin: 0 auto 0 25px;
+  padding: 25px 0 25px 0;
+  font-size: 25px;
+}
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu .dishes {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+.menu .dishes__heading {
+  font-weight: 300;
+}
+.menu .dishes__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu .dishes .dish {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 5px #EAEAEA;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.menu .dishes .dish__name {
+  width: 100%;
+  font-weight: 700;
+}
+.menu .dishes .dish__article {
+  width: 75%;
+  font-weight: 300;
+  color: #333;
+  font-size: 14px;
+}
+.menu .dishes .dish__price {
+  width: 20%;
+  text-align: right;
+  font-weight: 700;
+  font-size: 14px;
+}
+.menu .order-btn {
+  display: block;
+  margin: 35px auto 0 auto;
+  text-decoration: none;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(170deg, #FF79DA, #9356DC);
+  font-family: "roboo", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 30px;
+}
 
 .banner {
   width: 100%;
-  height: auto;
+  height: 275px;
   overflow: hidden;
 }
 .banner img {

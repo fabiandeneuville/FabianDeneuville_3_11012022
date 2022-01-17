@@ -1,26 +1,52 @@
 @mixin shadow{
-    box-shadow: 0 0 10px 0px $dark-grey;
+    box-shadow: 0 0 5px 5px $grey;
 }
 @mixin center{
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
 }
-@mixin textFont{
+@mixin GeneralFont{
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
-@mixin headingFont{
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-}
-@mixin titleFont{
+@mixin SpecialFont{
     font-family: 'shrikhand', 'roboto', Arial, Helvetica, sans-serif;
 }
 @mixin sectionHeading{
-    margin:25px auto 25px 25px;
+    margin:0 auto 0 25px;
+    padding:25px 0 25px 0;
     font-size: 25px;
 }
 @mixin imageProperties{
     width:100%;
     height:auto;
     object-fit: cover;
+}
+@mixin bigBtn{
+    display:block;
+    margin:15px auto 15px auto;
+    text-decoration: none;
+    color:$white;
+    width:300px;
+    height:80px;
+    background:linear-gradient(170deg,$color-secondary, $color-primary);
+    font-family:'roboo', Arial, Helvetica, sans-serif ;
+    font-size:20px;
+    line-height:80px;
+    text-align: center;
+    border-radius: 40px;
+}
+@mixin mediumBtn{
+    display:block;
+    margin:35px auto 0 auto;
+    text-decoration: none;
+    color:$white;
+    width:200px;
+    height:60px;
+    background:linear-gradient(170deg,$color-secondary, $color-primary);
+    font-family:'roboo', Arial, Helvetica, sans-serif ;
+    font-size:20px;
+    line-height:60px;
+    text-align: center;
+    border-radius: 30px;
 }

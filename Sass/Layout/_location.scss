@@ -7,12 +7,12 @@
     font-weight: 500;
     color:#333;
     background-color:$grey;
+    @include GeneralFont;
     &__ping{
         display:inline-block;
         margin-right: 25px;        
     }
     &__place{
         display:inline-block;
-        @include textFont;
     }
 }
