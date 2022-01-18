@@ -1,5 +1,5 @@
 .menu{
-    background-color: $light-grey;
+    background-color: $color-background;
     z-index: 2;
     position:relative;
     margin-top:-110px;
@@ -55,7 +55,7 @@
             }
             &__article{
                 font-weight: 300;
-                color:$dark-grey;
+                color:darken($color: $color-background, $amount: 70);
                 font-size: 14px;
                 overflow: hidden;
                 white-space: nowrap;
@@ -80,7 +80,7 @@
                 i{
                         position:absolute;
                         @include center;
-                        color:white;
+                        color:$white;
                         font-size: 22px;
                 }
             }

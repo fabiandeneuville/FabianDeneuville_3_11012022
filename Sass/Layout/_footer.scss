@@ -1,6 +1,6 @@
 .footer{
     padding:25px;
-    background-color:$dark-grey;
+    background-color:darken($color: $color-background, $amount: 70);
     color:$white;
     @include GeneralFont;
     &__heading{
