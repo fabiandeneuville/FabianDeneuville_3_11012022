@@ -6,7 +6,7 @@
     background-color: $color-background;
     transition:transform 0.3s ease-in-out;
     transition-delay:2.7s;
-    transform:translateX(-100vw);
+    transform:translateY(-100vh);
     &__heading{
         @include SpecialFont;
         text-align:center;

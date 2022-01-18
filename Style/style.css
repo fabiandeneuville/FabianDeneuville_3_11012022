@@ -15,7 +15,7 @@ body {
   background-color: #EAEAEA;
   transition: transform 0.3s ease-in-out;
   transition-delay: 2.7s;
-  transform: translateX(-100vw);
+  transform: translateY(-100vh);
 }
 .loader__heading {
   font-family: "shrikhand", "roboto", Arial, Helvetica, sans-serif;
