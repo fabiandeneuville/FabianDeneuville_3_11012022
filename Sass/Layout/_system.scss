@@ -30,6 +30,9 @@
             display:flex;
             flex-direction: row;
             @include shadow-light;
+            @media screen and (min-width:992px){
+                width:30%;
+            }
             &__step{
                 display:inline-block;
                 height:30px;
@@ -46,14 +49,15 @@
                 transform:translateY(-50%);
             }
             &__logo{
-                width:15%;
-                margin-right: 25px;
+                width: 70px;
+                min-width: 40px;
+                margin: 0 5px 0 5px;
                 color:darken($color: $color-background, $amount: 80);
-                text-align:right;
+                text-align:center;
                 flex-shrink: 0;
             }
             &__stepDescription{
-                width:85%;
+                width:calc(100% - 70px);
                 text-align:left;
                 font-weight: 500;
             }
