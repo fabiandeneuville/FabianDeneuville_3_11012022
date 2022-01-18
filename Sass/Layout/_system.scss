@@ -11,8 +11,15 @@
         justify-content: space-between;
         gap: 25px;
         align-items: center;
+        @media screen and (min-width:768px){
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding:0 15px 0 15px;
+        }
         .system-btn{
             width:90%;
+            min-width:250px;
+            max-width: 400px;
             height:100px;
             font-size: 18px;
             margin:0 auto 0 auto;
@@ -23,7 +30,7 @@
             line-height: 100px;
             display:flex;
             flex-direction: row;
-            @include shadow;
+            @include shadow-light;
             &__step{
                 display:inline-block;
                 height:30px;

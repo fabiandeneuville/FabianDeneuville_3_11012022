@@ -7,19 +7,26 @@
         @include sectionHeading;
     }
     &__container{
+        width:90%;
+        margin:0 auto 0 auto;
         display:flex;
         flex-direction: column;
         gap:25px;
         justify-content: space-around;
         align-items: center;
+        @media screen and (min-width:768px){
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            }
         .restaurants-card{
            border-radius:15px;
            overflow: hidden;
            width: 90%;
-           max-width: 500px;
+           max-width: 350px;
            position:relative;
            text-decoration: none;
-           @include shadow;
+           @include shadow-light;
            color:black;
            background-color: $white;
            .new{
