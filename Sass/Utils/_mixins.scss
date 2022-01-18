@@ -1,5 +1,11 @@
-@mixin shadow{
-    box-shadow: 0 0 5px 5px $grey;
+@mixin shadow-light{
+    box-shadow: 0 0 5px 2px $grey;
+}
+@mixin shadow-dark{
+    box-shadow:0 0 10px 5px $grey;
+}
+@mixin lighten{
+    opacity:0.8;
 }
 @mixin center{
     top:50%;
@@ -16,6 +22,10 @@
     margin:0 auto 0 25px;
     padding:25px 0 25px 0;
     font-size: 25px;
+    @media screen and (min-width:768px){
+        margin:0;
+        text-align: center;
+    }
 }
 @mixin imageProperties{
     width:100%;

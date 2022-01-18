@@ -42,7 +42,7 @@
             width:100%;
             background-color: $white;
             border-radius: 15px;
-            @include shadow;
+            @include shadow-light;
             padding:10px;
             overflow: hidden;
             &__name{
@@ -102,5 +102,9 @@
     }
     .order-btn{
         @include mediumBtn;
+        &:hover{
+            @include shadow-dark;
+            @include lighten;
+        }
     }
 }
