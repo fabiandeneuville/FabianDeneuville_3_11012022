@@ -3,6 +3,9 @@
     height:80px;
     position:relative;
     @include shadow-light;
+    @media screen and (min-width:992px){
+        height:120px;
+    }
     &__logo{
         display:block;
         width:60%;
