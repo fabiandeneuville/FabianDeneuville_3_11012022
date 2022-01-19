@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @keyframes cuisine {
   from {
     transform: rotate(-20deg);
@@ -16,39 +15,61 @@
     transform: rotate(-20deg);
   }
 }
-@keyframes intensité {
+@keyframes hideHeader {
   from {
-    transform: scaleY(1);
-  }
-  10% {
-    transform: scaleY(1.2);
-  }
-  20% {
-    transform: scaleY(1);
-  }
-  30% {
-    transform: scaleY(1.3);
-  }
-  40% {
-    transform: scaleY(1);
-  }
-  50% {
-    transform: scaleY(1.2);
-  }
-  60% {
-    transform: scaleY(1);
-  }
-  70% {
-    transform: scaleY(1.3);
+    transform: translateY(0vh);
   }
   80% {
-    transform: scaleY(1);
-  }
-  90% {
-    transform: scaleY(1.2);
+    transform: translateY(0vh);
   }
   to {
-    transform: scaleY(1);
+    transform: translateY(-100vh);
+  }
+}
+@keyframes splash {
+  from {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  10% {
+    transform: translateY(-100px) scale(2);
+    opacity: 0;
+  }
+  20% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  30% {
+    transform: translateY(-100px) scale(2);
+    opacity: 0;
+  }
+  40% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-100px) scale(2);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(-100px) scale(2);
+    opacity: 0;
+  }
+  80% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(-100px) scale(2);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
   }
 }
 *, ::before, ::after {
@@ -66,9 +87,9 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #EAEAEA;
-  transition: transform 0.3s ease-in-out;
-  transition-delay: 2.7s;
   transform: translateY(-100vh);
+  animation-name: hideHeader;
+  animation-duration: 3s;
 }
 .loader__heading {
   font-family: "shrikhand", "roboto", Arial, Helvetica, sans-serif;
@@ -95,7 +116,7 @@ body {
   width: 150px;
   height: 125px;
   background: linear-gradient(to right, grey 50%, lightgrey, white, grey);
-  border-radius: 0 0 15px 15px;
+  border-radius: 50% 50% 10% 10%/5% 5% 12% 12%;
   z-index: 2;
 }
 .loader__scene .marmite::after {
@@ -106,11 +127,8 @@ body {
   width: 150px;
   height: 5px;
   background-color: orangered;
-  border-radius: 5px;
-  box-shadow: 0 -5px 5px 5px orangered;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-  animation-name: intensité;
+  border-radius: 50% 50% 49% 50%/35% 35% 35% 36%;
+  box-shadow: 0 -2px 5px 5px orangered;
 }
 .loader__scene .gauche {
   position: absolute;
@@ -118,7 +136,7 @@ body {
   top: 30px;
   height: 30px;
   width: 20px;
-  border: 3px solid grey;
+  border: 5px solid grey;
   border-radius: 10px 0 0 20px;
 }
 .loader__scene .droite {
@@ -127,22 +145,56 @@ body {
   top: 30px;
   height: 30px;
   width: 20px;
-  border: 3px solid grey;
+  border: 5px solid grey;
   border-radius: 0 10px 20px 0;
 }
 .loader__scene .louche {
-  width: 5px;
+  width: 10px;
   height: 175px;
   border-radius: 25px;
-  background-color: #FF79DA;
+  background-color: goldenrod;
   position: absolute;
   bottom: 0px;
   left: 75px;
   transform: rotate(-20deg);
   transform-origin: bottom;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-timing-function: ease-in-out;
   animation-name: cuisine;
+}
+.loader__scene .goutte1 {
+  width: 10px;
+  height: 10px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  border-radius: 50%;
+  animation-name: splash;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+.loader__scene .goutte2 {
+  width: 15px;
+  height: 15px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 10px;
+  left: 75px;
+  border-radius: 50%;
+  animation-name: splash;
+  animation-duration: 3s;
+}
+.loader__scene .goutte3 {
+  width: 7px;
+  height: 8px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  border-radius: 50%;
+  animation-name: splash;
+  animation-duration: 3s;
 }
 
 .header {
