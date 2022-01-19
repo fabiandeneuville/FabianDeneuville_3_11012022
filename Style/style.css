@@ -568,14 +568,21 @@ body {
 }
 
 .banner {
+  position: relative;
   width: 100%;
   height: 275px;
   overflow: hidden;
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    height: 500px;
+  }
 }
 .banner img {
   object-fit: cover;
   width: 100%;
   height: auto;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
