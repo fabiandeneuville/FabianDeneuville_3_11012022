@@ -4,9 +4,9 @@
     width:100vw;
     height:100vh;
     background-color: $color-background;
-    transition:transform 0.3s ease-in-out;
-    transition-delay:2.7s;
     transform:translateY(-100vh);
+    animation-name: hideHeader;
+    animation-duration: 3s;
     &__heading{
         @include SpecialFont;
         text-align:center;
@@ -31,7 +31,7 @@
             width:150px;
             height:125px;
             background: linear-gradient(to right, grey 50%, lightgrey, white, grey);
-            border-radius: 0 0 15px 15px;
+            border-radius:50% 50% 10% 10% / 5% 5% 12% 12%;
             z-index:2;
             }
         .marmite::after{
@@ -42,11 +42,8 @@
             width:150px;
             height:5px;
             background-color: orangered;
-            border-radius: 5px;
-            box-shadow: 0 -5px 5px 5px orangered;
-            animation-duration: 3s;
-            animation-timing-function: ease-in-out;
-            animation-name:intensité;
+            border-radius: 50% 50% 49% 50% / 35% 35% 35% 36% ;
+            box-shadow: 0 -2px 5px 5px orangered;
         }
         .gauche{
             position:absolute;
@@ -54,7 +51,7 @@
             top:30px;
             height:30px;
             width:20px;
-            border:3px solid grey;
+            border:5px solid grey;
             border-radius: 10px 0 0 20px;
         }
         .droite{
@@ -63,22 +60,57 @@
             top:30px;
             height:30px;
             width:20px;
-            border:3px solid grey;
+            border:5px solid grey;
             border-radius:0 10px 20px 0;
         }
         .louche{
-            width:5px;
+            width:10px;
             height:175px;
             border-radius: 25px;
-            background-color: $color-secondary;
+            background-color: goldenrod;
             position:absolute;
             bottom:0px;
             left:75px;
             transform:rotate(-20deg);
             transform-origin: bottom;
-            animation-duration: 3s;
+            animation-duration: 2.5s;
             animation-timing-function: ease-in-out;
             animation-name: cuisine;
         }
+        .goutte1{
+            width:10px;
+            height:10px;
+            background-color: $color-tertiary;
+            position:absolute;
+            top:10px;
+            left:35px;
+            border-radius: 50%;
+            animation-name:splash;
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+        }
+         .goutte2{
+            width:15px;
+            height:15px;
+            background-color: $color-tertiary;
+            position:absolute;
+            top:10px;
+            left:75px;
+            border-radius: 50%;
+            animation-name:splash;
+            animation-duration: 3s;
+         }
+         .goutte3{
+            width:7px;
+            height:8px;
+            background-color: $color-tertiary;
+            position:absolute;
+            top:10px;
+            left:110px;
+            border-radius: 50%;
+            animation-name:splash;
+            animation-duration: 3s;
+        }
     }
 }
+
