@@ -339,6 +339,12 @@ body {
   flex-direction: row;
   box-shadow: 0 0 5px 2px #EAEAEA;
 }
+.system__container .system-btn:hover {
+  background: #f2eafb;
+}
+.system__container .system-btn:hover .system-btn__logo {
+  color: #9356DC;
+}
 @media screen and (min-width: 992px) {
   .system__container .system-btn {
     width: 30%;

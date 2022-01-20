@@ -30,6 +30,12 @@
             display:flex;
             flex-direction: row;
             @include shadow-light;
+            &:hover{
+                background: lighten($color: $color-primary, $amount: 35);
+                .system-btn__logo{
+                    color:$color-primary;
+                }
+            }
             @media screen and (min-width:992px){
                 width:30%;
             }
