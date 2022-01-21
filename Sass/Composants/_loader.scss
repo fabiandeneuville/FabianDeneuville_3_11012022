@@ -3,7 +3,7 @@
     z-index: 3;
     width:100vw;
     height:100vh;
-    background:linear-gradient(170deg,$color-secondary, $color-primary);
+    background:$color-background;
     transform:translateY(-100vh);
     animation-name: hideHeader;
     animation-duration: 3s;
@@ -16,7 +16,7 @@
     &__message{
         @include GeneralFont;
         font-size:24px;
-        color:$color-tertiary;
+        color:darken($color: $color-tertiary, $amount: 20);
         text-align: center;
     }
     &__scene{

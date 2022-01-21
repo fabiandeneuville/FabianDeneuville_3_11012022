@@ -86,7 +86,7 @@ body {
   z-index: 3;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(170deg, #FF79DA, #9356DC);
+  background: #EAEAEA;
   transform: translateY(-100vh);
   animation-name: hideHeader;
   animation-duration: 3s;
@@ -100,7 +100,7 @@ body {
 .loader__message {
   font-family: "roboto", Arial, Helvetica, sans-serif;
   font-size: 24px;
-  color: #99E2D0;
+  color: #4acbab;
   text-align: center;
 }
 .loader__scene {
