@@ -5,6 +5,7 @@
     width:40px;
     height:40px;
     font-size: 25px;
+    cursor:pointer;
     @include heartAnimation;
 }
 .heart-menu{
@@ -14,6 +15,7 @@
     top:20px;
     right:40px;
     font-size: 35px;
+    cursor:pointer;
     @include heartAnimation;
 }
 
