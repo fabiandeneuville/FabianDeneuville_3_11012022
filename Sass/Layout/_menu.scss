@@ -50,6 +50,9 @@
             @include shadow-light;
             padding:10px;
             overflow: hidden;
+            animation-name: appear;
+            animation-duration: 1.2s;
+            animation-timing-function: ease-in-out;
             &__name{
                 width:100%;
                 font-size: 16px;

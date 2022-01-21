@@ -74,3 +74,15 @@
         opacity:1;
     }
 }
+
+@keyframes appear {
+    from {
+        opacity:0;
+    }
+    50% {
+        opacity :0.6;
+    }
+    to {
+        opacity:1;
+    }
+}
