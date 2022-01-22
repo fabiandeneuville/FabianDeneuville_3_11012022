@@ -64,14 +64,14 @@
     cursor:pointer;
 }
 @mixin heartAnimation{
-    .border{
+    .empty{
         z-index:2;
         position:absolute;
         top:50%;
         left:50%;
         transform:translate(-50%, -50%);
     }
-    .filled{
+    .full{
         z-index:1;
         position:absolute;
         top:50%;
@@ -82,7 +82,7 @@
         background-clip: text;
         color:transparent;
     }
-    &:hover .filled{
+    &:hover .full{
         transform:translate(-50%, -50%) scale(1);
     }
 }

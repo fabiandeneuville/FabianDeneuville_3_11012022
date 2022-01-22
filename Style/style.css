@@ -655,14 +655,14 @@ body {
   font-size: 25px;
   cursor: pointer;
 }
-.heart .border {
+.heart .empty {
   z-index: 2;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.heart .filled {
+.heart .full {
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -673,7 +673,7 @@ body {
   background-clip: text;
   color: transparent;
 }
-.heart:hover .filled {
+.heart:hover .full {
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -686,14 +686,14 @@ body {
   font-size: 35px;
   cursor: pointer;
 }
-.heart-menu .border {
+.heart-menu .empty {
   z-index: 2;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.heart-menu .filled {
+.heart-menu .full {
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -704,7 +704,7 @@ body {
   background-clip: text;
   color: transparent;
 }
-.heart-menu:hover .filled {
+.heart-menu:hover .full {
   transform: translate(-50%, -50%) scale(1);
 }
 
