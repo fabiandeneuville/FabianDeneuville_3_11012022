@@ -301,7 +301,7 @@ body {
   box-shadow: 0 0 5px 2px #EAEAEA;
 }
 .presentation__link-btn:hover {
-  box-shadow: 0 0 10px 10px #b7b7b7;
+  box-shadow: 0 0 10px 5px #b7b7b7;
   opacity: 0.8;
 }
 
@@ -591,7 +591,7 @@ body {
   cursor: pointer;
 }
 .menu .order-btn:hover {
-  box-shadow: 0 0 10px 10px #b7b7b7;
+  box-shadow: 0 0 10px 5px #b7b7b7;
   opacity: 0.8;
 }
 
@@ -709,7 +709,7 @@ body {
   margin: 5px auto 15px 25px;
 }
 .restaurants-card:hover {
-  box-shadow: 0 0 10px 10px #b7b7b7;
+  box-shadow: 0 0 10px 5px #b7b7b7;
 }
 
 /*# sourceMappingURL=style.css.map */
