@@ -2,7 +2,7 @@
     box-shadow: 0 0 5px 2px $grey;
 }
 @mixin shadow-dark{
-    box-shadow:0 0 10px 5px $grey;
+    box-shadow:0 0 10px 10px darken($color: $grey, $amount: 20);
 }
 @mixin lighten{
     opacity:0.8;

@@ -301,7 +301,7 @@ body {
   box-shadow: 0 0 5px 2px #EAEAEA;
 }
 .presentation__link-btn:hover {
-  box-shadow: 0 0 10px 5px #EAEAEA;
+  box-shadow: 0 0 10px 10px #b7b7b7;
   opacity: 0.8;
 }
 
@@ -423,44 +423,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-}
-.restaurants__container .restaurants-card {
-  border-radius: 15px;
-  overflow: hidden;
-  width: 90%;
-  max-width: 350px;
-  position: relative;
-  text-decoration: none;
-  box-shadow: 0 0 5px 2px #EAEAEA;
-  color: black;
-  background-color: #fff;
-}
-.restaurants__container .restaurants-card .new {
-  width: 80px;
-  height: 25px;
-  text-align: center;
-  line-height: 25px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #99E2D0;
-  color: #1b6150;
-}
-.restaurants__container .restaurants-card__img {
-  width: 100%;
-  height: 175px;
-  overflow: hidden;
-}
-.restaurants__container .restaurants-card__img img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.restaurants__container .restaurants-card__name {
-  margin: 15px auto 5px 25px;
-}
-.restaurants__container .restaurants-card__place {
-  margin: 5px auto 15px 25px;
 }
 
 .footer {
@@ -629,7 +591,7 @@ body {
   cursor: pointer;
 }
 .menu .order-btn:hover {
-  box-shadow: 0 0 10px 5px #EAEAEA;
+  box-shadow: 0 0 10px 10px #b7b7b7;
   opacity: 0.8;
 }
 
@@ -706,6 +668,48 @@ body {
 }
 .heart-menu:hover .full {
   transform: translate(-50%, -50%) scale(1);
+}
+
+.restaurants-card {
+  border-radius: 15px;
+  overflow: hidden;
+  width: 90%;
+  max-width: 350px;
+  position: relative;
+  text-decoration: none;
+  box-shadow: 0 0 5px 2px #EAEAEA;
+  color: black;
+  background-color: #fff;
+}
+.restaurants-card .new {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #99E2D0;
+  color: #1b6150;
+}
+.restaurants-card__img {
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+}
+.restaurants-card__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.restaurants-card__name {
+  margin: 15px auto 5px 25px;
+}
+.restaurants-card__place {
+  margin: 5px auto 15px 25px;
+}
+.restaurants-card:hover {
+  box-shadow: 0 0 10px 10px #b7b7b7;
 }
 
 /*# sourceMappingURL=style.css.map */
