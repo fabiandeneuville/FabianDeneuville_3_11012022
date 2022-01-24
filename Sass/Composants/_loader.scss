@@ -1,5 +1,5 @@
 .loader{
-    position:absolute;
+    position:fixed;
     z-index: 3;
     width:100vw;
     height:100vh;
@@ -14,14 +14,16 @@
         color:black;
     }
     &__message{
+        width:80%;
+        margin: 0 auto;
         @include GeneralFont;
-        font-size:24px;
-        color:darken($color: $color-tertiary, $amount: 20);
+        font-size:20px;
+        color:darken($color: $color-primary, $amount: 20);
         text-align: center;
     }
     &__scene{
         position:absolute;
-        top:50%;
+        top:65%;
         left:50%;
         transform: translate(-50%, -50%);
         .marmite{
