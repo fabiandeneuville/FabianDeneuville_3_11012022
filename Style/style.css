@@ -724,12 +724,16 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-360deg);
+  transition: transform 1s ease-in-out;
   color: #fff;
   font-size: 22px;
 }
 .dish:hover .dish__checkbox {
   transform: translateX(-50px);
+}
+.dish:hover .dish__checkbox i {
+  transform: translate(-50%, -50%) rotate(0deg);
 }
 .dish:hover .dish__price {
   transform: translateX(-50px);
