@@ -575,8 +575,6 @@ body {
 
 .heart {
   position: absolute;
-  bottom: 25px;
-  right: 20px;
   width: 40px;
   height: 40px;
   font-size: 25px;
@@ -605,34 +603,13 @@ body {
 }
 
 .heart-menu {
-  position: absolute;
-  width: 40px;
-  height: 40px;
   top: 20px;
-  right: 10px;
-  font-size: 35px;
-  cursor: pointer;
+  right: 1%;
 }
-.heart-menu .empty {
-  z-index: 2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.heart-menu .full {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: all 0.8s ease-in;
-  background: linear-gradient(170deg, #FF79DA, #9356DC);
-  background-clip: text;
-  color: transparent;
-}
-.heart-menu:hover .full {
-  transform: translate(-50%, -50%) scale(1);
+
+.heart-home {
+  bottom: 25px;
+  right: 20px;
 }
 
 .restaurants-card {
