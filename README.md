@@ -11,6 +11,15 @@
 - Mettre en place une structure de navigation pour un site web
 <hr>
 
+<b>VISUELS RESPONSIVE :</b>
+
+<b>PAGE D'ACCUEIL</b>
+![Capture d’écran 2022-01-25 à 21 13 22](https://user-images.githubusercontent.com/94392055/151052576-a369bbe9-4c3e-49bb-a6cc-df1e251cdf28.png)
+
+<b>PAGE MENU</b>
+![Capture d’écran 2022-01-25 à 21 13 59](https://user-images.githubusercontent.com/94392055/151052624-56e7cc79-61b6-46c6-9be4-4a3c8439028a.png)
+<hr>
+
 <b>CONTEXTE :</b>
 
 Ohmyfood! Est une entreprise de commande de repas en ligne.<br>
