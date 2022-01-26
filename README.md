@@ -14,10 +14,10 @@
 <b>VISUELS RESPONSIVE :</b>
 
 <b>PAGE D'ACCUEIL</b>
-![Capture d’écran 2022-01-25 à 21 13 22](https://user-images.githubusercontent.com/94392055/151052576-a369bbe9-4c3e-49bb-a6cc-df1e251cdf28.png)
+![Capture d'écran 2022-01-25 à 21 13 22](https://user-images.githubusercontent.com/94392055/151052576-a369bbe9-4c3e-49bb-a6cc-df1e251cdf28.png)
 
 <b>PAGE MENU</b>
-![Capture d’écran 2022-01-25 à 21 13 59](https://user-images.githubusercontent.com/94392055/151052624-56e7cc79-61b6-46c6-9be4-4a3c8439028a.png)
+![Capture d'écran 2022-01-25 à 21 13 59](https://user-images.githubusercontent.com/94392055/151052624-56e7cc79-61b6-46c6-9be4-4a3c8439028a.png)
 <hr>
 
 <b>CONTEXTE :</b>
@@ -63,7 +63,7 @@ Le site doit retransmettre le positionnement haut de gamme de la société à se
 
 <b>EFFETS GRAPHIQUES & ANIMATIONS :</b>
 - <b>Eclaircissement</b> de la couleur des deux boutons principaux au survol + ombre portée plus prononcée
-- <b>Remplissage progressif</b> du bouton J’aime en forme de cœur au survol
-- Intégration d’un <b>loading spinner</b> à chaque chargement de la page d’accueil
+- <b>Remplissage progressif</b> du bouton J'aime en forme de cœur au survol
+- Intégration d'un <b>loading spinner</b> à chaque chargement de la page d'accueil
 - <b>Apparition progressive</b> des plats sur la page des restaurants 
-- <b>Apparition au survol</b> d’une coche à droite des plats 
+- <b>Apparition au survol</b> d'une coche à droite des plats 
