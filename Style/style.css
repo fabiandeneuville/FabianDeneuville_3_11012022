@@ -91,124 +91,6 @@ body {
   overflow-x: hidden;
 }
 
-.loader {
-  position: fixed;
-  z-index: 3;
-  width: 100vw;
-  height: 100vh;
-  background: #EAEAEA;
-  transform: translateY(-100vh);
-  animation-name: hideHeader;
-  animation-duration: 3s;
-}
-.loader__heading {
-  font-family: "shrikhand", "roboto", Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 50px;
-  color: black;
-}
-.loader__message {
-  width: 80%;
-  margin: 0 auto;
-  font-family: "roboto", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: #6023a9;
-  text-align: center;
-}
-.loader__scene {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.loader__scene .marmite {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 150px;
-  height: 125px;
-  background: linear-gradient(to right, grey 50%, lightgrey, white, grey);
-  border-radius: 50% 50% 10% 10%/5% 5% 12% 12%;
-  z-index: 2;
-}
-.loader__scene .marmite::after {
-  content: "";
-  display: block;
-  position: relative;
-  top: 100%;
-  width: 150px;
-  height: 5px;
-  background-color: orangered;
-  border-radius: 50% 50% 49% 50%/35% 35% 35% 36%;
-  box-shadow: 0 -2px 5px 5px orangered;
-}
-.loader__scene .gauche {
-  position: absolute;
-  left: -17px;
-  top: 30px;
-  height: 30px;
-  width: 20px;
-  border: 5px solid grey;
-  border-radius: 10px 0 0 20px;
-}
-.loader__scene .droite {
-  position: absolute;
-  left: 147px;
-  top: 30px;
-  height: 30px;
-  width: 20px;
-  border: 5px solid grey;
-  border-radius: 0 10px 20px 0;
-}
-.loader__scene .louche {
-  width: 10px;
-  height: 175px;
-  border-radius: 25px;
-  background-color: goldenrod;
-  position: absolute;
-  bottom: 0px;
-  left: 75px;
-  transform: rotate(-20deg);
-  transform-origin: bottom;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-in-out;
-  animation-name: cuisine;
-}
-.loader__scene .goutte1 {
-  width: 10px;
-  height: 10px;
-  background-color: #99E2D0;
-  position: absolute;
-  top: 10px;
-  left: 35px;
-  border-radius: 50%;
-  animation-name: splash;
-  animation-duration: 3s;
-  animation-timing-function: ease-in;
-}
-.loader__scene .goutte2 {
-  width: 15px;
-  height: 15px;
-  background-color: #99E2D0;
-  position: absolute;
-  top: 10px;
-  left: 75px;
-  border-radius: 50%;
-  animation-name: splash;
-  animation-duration: 3s;
-}
-.loader__scene .goutte3 {
-  width: 7px;
-  height: 8px;
-  background-color: #99E2D0;
-  position: absolute;
-  top: 10px;
-  left: 110px;
-  border-radius: 50%;
-  animation-name: splash;
-  animation-duration: 3s;
-}
-
 .header {
   width: 100%;
   height: 80px;
@@ -529,6 +411,124 @@ body {
 .menu .order-btn:hover {
   box-shadow: 0 0 10px 5px #b7b7b7;
   opacity: 0.8;
+}
+
+.loader {
+  position: fixed;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background: #EAEAEA;
+  transform: translateY(-100vh);
+  animation-name: hideHeader;
+  animation-duration: 3s;
+}
+.loader__heading {
+  font-family: "shrikhand", "roboto", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+.loader__message {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #6023a9;
+  text-align: center;
+}
+.loader__scene {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader__scene .marmite {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 125px;
+  background: linear-gradient(to right, grey 50%, lightgrey, white, grey);
+  border-radius: 50% 50% 10% 10%/5% 5% 12% 12%;
+  z-index: 2;
+}
+.loader__scene .marmite::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 100%;
+  width: 150px;
+  height: 5px;
+  background-color: orangered;
+  border-radius: 50% 50% 49% 50%/35% 35% 35% 36%;
+  box-shadow: 0 -2px 5px 5px orangered;
+}
+.loader__scene .gauche {
+  position: absolute;
+  left: -17px;
+  top: 30px;
+  height: 30px;
+  width: 20px;
+  border: 5px solid grey;
+  border-radius: 10px 0 0 20px;
+}
+.loader__scene .droite {
+  position: absolute;
+  left: 147px;
+  top: 30px;
+  height: 30px;
+  width: 20px;
+  border: 5px solid grey;
+  border-radius: 0 10px 20px 0;
+}
+.loader__scene .louche {
+  width: 10px;
+  height: 175px;
+  border-radius: 25px;
+  background-color: goldenrod;
+  position: absolute;
+  bottom: 0px;
+  left: 75px;
+  transform: rotate(-20deg);
+  transform-origin: bottom;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-name: cuisine;
+}
+.loader__scene .goutte1 {
+  width: 10px;
+  height: 10px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  border-radius: 50%;
+  animation-name: splash;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+.loader__scene .goutte2 {
+  width: 15px;
+  height: 15px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 10px;
+  left: 75px;
+  border-radius: 50%;
+  animation-name: splash;
+  animation-duration: 3s;
+}
+.loader__scene .goutte3 {
+  width: 7px;
+  height: 8px;
+  background-color: #99E2D0;
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  border-radius: 50%;
+  animation-name: splash;
+  animation-duration: 3s;
 }
 
 .banner {

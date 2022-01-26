@@ -3,7 +3,6 @@
 @import"./Utils/functions";
 @import"./Utils/animations";
 @import"./Base/general";
-@import"./Composants/loader";
 @import"./Layout/header";
 @import"./Layout/location";
 @import"./Layout/presentation";
@@ -11,8 +10,9 @@
 @import"./Layout/restaurants";
 @import"./Layout/footer";
 @import"./Layout/menu";
-@import"./Composants/banner";
-@import"./Composants/heart";
-@import"./Composants/restaurant-card";
-@import"./Composants/dish";
+@import"./Components/loader";
+@import"./Components/banner";
+@import"./Components/heart";
+@import"./Components/restaurant-card";
+@import"./Components/dish";
 
