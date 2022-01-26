@@ -75,9 +75,11 @@
 @keyframes appear {
   from {
     opacity: 0;
+    transform: translateY(0);
   }
   to {
     opacity: 1;
+    transform: translateY(-8px);
   }
 }
 *, ::before, ::after {
@@ -693,82 +695,82 @@ body {
 
 .dish1 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.1s;
+  animation-delay: 250ms;
 }
 
 .dish2 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.2s;
+  animation-delay: 500ms;
 }
 
 .dish3 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.3s;
+  animation-delay: 750ms;
 }
 
 .dish4 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.4s;
+  animation-delay: 1000ms;
 }
 
 .dish5 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
+  animation-delay: 1250ms;
 }
 
 .dish6 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.6s;
+  animation-delay: 1500ms;
 }
 
 .dish7 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.7s;
+  animation-delay: 1750ms;
 }
 
 .dish8 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.8s;
+  animation-delay: 2000ms;
 }
 
 .dish9 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.9s;
+  animation-delay: 2250ms;
 }
 
 .dish10 {
   animation-name: appear;
-  animation-duration: 0.1s;
+  animation-duration: 250ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 2500ms;
 }
 
 /*# sourceMappingURL=style.css.map */
