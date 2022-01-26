@@ -730,12 +730,12 @@ body {
   transform: translate(-50%, -50%) scale(1);
 }
 
-.heart-menu {
+.heart--position-menu {
   top: 20px;
   right: 1%;
 }
 
-.heart-home {
+.heart--position-home {
   bottom: 25px;
   right: 20px;
 }
