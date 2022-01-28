@@ -51,7 +51,7 @@ Le site doit retransmettre le positionnement haut de gamme de la société à se
 - <b>Aucun framework</b> utilisé
 - Utilisation de <b>SASS - système 7 - 1</b> même si les directories Pages, Themes et Vendors n'ont pas été utilisés
 - <b>Versionning</b> du code avec Git et GitHub
-- <b>Hébergement</b> du site sur <a href="https://fabiandeneuville.github.io/FabianDeneuville_3_11032022/">GitHub Pages</a>
+- <b>Hébergement</b> du site sur <a href="https://fabiandeneuville.github.io/FabianDeneuville_3_11012022/">GitHub Pages</a>
 <hr>
   
 <b>COMPATIBILITE & VALIDATION :</b>
