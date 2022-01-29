@@ -43,11 +43,4 @@
             align-items: center;
         }
     }
-    .order-btn{
-        @include mediumBtn;
-        &:hover{
-            @include shadow-dark;
-            @include lighten;
-        }
-    }
 }

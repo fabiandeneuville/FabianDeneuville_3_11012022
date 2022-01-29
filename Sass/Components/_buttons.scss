@@ -1,0 +1,8 @@
+.big-btn{
+    @include bigBtn;
+    @include shadow-light;
+    &:hover{
+        @include shadow-dark;
+        @include lighten;
+    }
+}   

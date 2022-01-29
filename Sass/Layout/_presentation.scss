@@ -24,12 +24,4 @@
         color:darken($color: $color-background, $amount: 70);
         font-weight: 300;
     }
-    &__link-btn{
-        @include bigBtn;
-        @include shadow-light;
-        &:hover{
-            @include shadow-dark;
-            @include lighten;
-        }
-    }   
 }

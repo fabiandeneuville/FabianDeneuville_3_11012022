@@ -37,7 +37,7 @@
     margin:15px auto 15px auto;
     text-decoration: none;
     color:$white;
-    width:300px;
+    width:280px;
     height:80px;
     background:linear-gradient(170deg,$color-secondary, $color-primary);
     font-family:'roboto', Arial, Helvetica, sans-serif ;
@@ -46,20 +46,4 @@
     text-align: center;
     border-radius: 40px;
     cursor: pointer;
-}
-@mixin mediumBtn{
-    display:block;
-    margin:35px auto 0 auto;
-    text-decoration: none;
-    border:none;
-    color:$white;
-    width:200px;
-    height:60px;
-    background:linear-gradient(170deg,$color-secondary, $color-primary);
-    font-family:'roboto', Arial, Helvetica, sans-serif ;
-    font-size:20px;
-    line-height:60px;
-    text-align: center;
-    border-radius: 30px;
-    cursor:pointer;
 }
