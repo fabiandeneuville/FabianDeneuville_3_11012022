@@ -625,6 +625,7 @@ body {
   text-overflow: ellipsis;
 }
 .dish__article {
+  margin-top: 3px;
   font-weight: 300;
   color: #383838;
   font-size: 12px;

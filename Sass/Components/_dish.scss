@@ -16,6 +16,7 @@
         text-overflow: ellipsis;
     }
     &__article{
+        margin-top:3px;
         font-weight: 300;
         color:darken($color: $color-background, $amount: 70);
         font-size: 12px;
