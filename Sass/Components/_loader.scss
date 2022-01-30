@@ -5,7 +5,7 @@
     height:100vh;
     background:$color-background;
     transform:translateY(-100vh);
-    animation-name: hideHeader;
+    animation-name: hideLoader;
     animation-duration: 3s;
     &__heading{
         @include SpecialFont;
