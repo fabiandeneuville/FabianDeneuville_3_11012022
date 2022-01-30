@@ -88,6 +88,7 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .header {
@@ -531,14 +532,14 @@ body {
   font-size: 25px;
   cursor: pointer;
 }
-.heart .empty {
+.heart__empty {
   z-index: 2;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.heart .full {
+.heart__full {
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -549,7 +550,7 @@ body {
   background-clip: text;
   color: transparent;
 }
-.heart:hover .full {
+.heart:hover .heart__full {
   transform: translate(-50%, -50%) scale(1);
 }
 
